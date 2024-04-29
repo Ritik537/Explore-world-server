@@ -52,7 +52,7 @@ public class AttractionsService {
         // Set the URL and request parameters
         String url = "https://travel-advisor.p.rapidapi.com/attractions/list-by-latlng";
         String lunit = "km";
-        String currency = "USD";
+        String currency = "INR";
         int limit = 30;
         int distance = 25;
         String lang = "en_US";
