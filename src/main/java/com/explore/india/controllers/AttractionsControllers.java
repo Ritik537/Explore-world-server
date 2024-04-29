@@ -12,7 +12,7 @@ import java.net.URISyntaxException;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "https://explore-world-git-main-ritik537s-projects.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://explore-world-omega.vercel.app/"})
 public class AttractionsControllers {
 	
     @Autowired
