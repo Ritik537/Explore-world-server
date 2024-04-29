@@ -4,7 +4,7 @@ COPY . .
 
 RUN mvn clean package -DskipTESTS
 
-FROM adoptopenjdk:21-jdk-hotspot-focal as builder
+FROM maven:3.8.1-openjdk-17-slim
 
 COPY --from=build /target/ExploreInida-0.0.1-SNAPSHOT.jar ExploreInida.jar
 
