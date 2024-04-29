@@ -1,4 +1,4 @@
-FROM maven:3.8.5-openjdk-17 AS build
+FROM openjdk:17-jdk-alpine AS build
 
 COPY . .
 
