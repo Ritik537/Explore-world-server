@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.explore.india</groupId>
-	<artifactId>ExploreInida</artifactId>
+	<artifactId>ExploreWorld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ExploreInida</name>
+	<name>ExploreWorld</name>
 	<description>a web project for travelling information</description>
 	<properties>
 		<java.version>17</java.version>
