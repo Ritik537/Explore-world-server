@@ -55,7 +55,7 @@ public class HotelsService {
         String Hotel_class = "1,2,3";
         String subcategory = "hotel,bb,specialty";
         int limit = 30;
-        int distance = 25;
+        int distance = 10;
         String lang = "en_US";
         
         URI uri = new URI(url +
@@ -65,7 +65,7 @@ public class HotelsService {
                 "&subcategory=" + subcategory +
                 
                 "&limit=" + limit +
-                "&Hotel_class=" + Hotel_class +
+                
                 "&distance=" + distance +
                 "&currency=" + currency +
                 "&lang=" + lang);
